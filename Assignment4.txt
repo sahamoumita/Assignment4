@@ -1,0 +1,56 @@
+1. What exactly is []?
+Ans- This is an empty list.
+
+2. In a list of values stored in a variable called spam, how would you assign the value 'hello'as the
+third value? (Assume [2, 4, 6, 8, 10] are in spam.)
+Ans- spam[2]='hello'
+
+Let's pretend the spam includes the list ['a','b','c','d'] for the next three queries.
+
+3. What is the value of spam[int(int('3' * 2) / 11)]?
+Ans-'d'  This eventually evaluates to 3. Expressions can be used wherever values are used.
+
+4. What is the value of spam[-1]?
+Ans- Error- python cannot calculate a negative number.
+
+5. What is the value of spam[:2]?
+Ans- The two in the brackets should have another number in front of the double dots.
+
+Let's pretend bacon has the list [3.14,'cat','11','cat', True] for the next three questions.
+6. What is the value of bacon.index('cat')?
+Ans- A list of a returned value
+
+7. How does bacon.append(99) change the look of the list value in bacon?
+Ans- A added value in a list.
+
+8. What does bacon.remove('cat') make the list value in bacon look like?
+Ans- It will remove the cat from the list.
+
+9. What are the list concatenation and list replication operators?
+Ans- For list concatenation + operator is used.
+     For list replication * operator is used.
+
+10. What is difference between the list methods append() and insert()?
+Ans- The difference between append() and insert() is that insert function allows us to add a specific element at a specified index of the list unlike append() where we can add the element only at end of the list.
+
+11. What are the two methods for removing items from a list?
+Ans-The methods are remove()and pop().
+
+12. Describe how list values and string values are identical.
+Ans-The similarity between Lists and Strings in Python is that both are sequences. 
+
+13. What's the difference between tuples and lists?
+Ans-The main difference between the tuples and lists is that the tuples are immutable objects while the lists are mutable. This means that tuples cannot be changed while the lists can be modified. 
+
+14. How do you type a tuple value that only contains the integer 42?
+Ans-(42,)
+
+15. How do you get a list value's tuple form? How do you get a tuple value's list form?
+Ans- By placing a comma after the value inside the parenthesis for retrieving .
+
+16. Variables that "contain" list values are not necessarily lists themselves. Instead, what do they
+contain?
+Ans- References bit of data.
+
+17. How do you distinguish between copy.copy() and copy.deepcopy()?
+Ans- Copy.copy makes duplicate copies and, deepcopy()  copies the inner list as well thought both  similar.
